@@ -1,0 +1,183 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+.siteicon img {
+  width: calc(95% + 0.2vw);
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+nav.styt {
+  padding: 2px 0;
+}
+
+.nav-item {
+  font-size: calc(14px + 0.2vw);
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin: 0 3px;
+}
+
+li .nav-link {
+  color: #333;
+}
+
+.btnarea {
+  padding: 0 0 0 39%;
+  margin: 0;
+  display: flex;
+}
+
+a .bn1 {
+  border: none;
+  color: #333;
+  padding: 8px 20px;
+  letter-spacing: 0.2px;
+}
+
+a .bn1:hover {
+  border: none;
+  color: #FEB017;
+  text-decoration: underline;
+}
+
+a .bn2 {
+  background-color: #FEB017;
+  padding: 8px 21px;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+}
+
+a .bn2:hover {
+  background-color: #f1a408;
+  color: #fff;
+}
+
+/* Hero Section */
+#hero {
+  padding: 35px 20px;
+  margin: 0;
+  /* background-image: url('/assets/img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+}
+
+.src {
+  padding: 0 18% 4%;
+}
+
+span#search-addon {
+  background: #333 !important;
+  color: #fff;
+  border-radius: 0;
+  padding: 0 18px;
+}
+
+input.form-control {
+  padding: 10px 18px;
+  border: 1px solid #333;
+  border-radius: 0 !important;
+}
+
+#hero h1 {
+  font-size: calc(48px + 0.2vw);
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding: 0;
+  margin: 0 0 2%;
+}
+
+#hero h3 {
+  font-size: calc(23px + 0.2vw);
+  margin: 0;
+  padding: 0 calc(20% - 0.2vw) 3.5% 0;
+  line-height: 1.4;
+}
+
+.mdv {
+  display: flex;
+}
+
+div.mmdv {
+  width: 50%;
+  margin: 0 1.2%;
+}
+
+.dv1 {
+  background-image: url('/assets/img/hair.jpg');
+  background-color: #0000002c;
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 5px 20px;
+  border: 3px solid #FEB017;
+  border-radius: 20px;
+  width: 100% !important;
+  margin-bottom: 15px;
+}
+
+.dv2 {
+  background-image: url('/assets/img/carwash.jpg');
+  background-color: #0000002c;
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 5px 20px;
+  border: 3px solid #FEB017;
+  border-radius: 20px;
+  width: 100% !important;
+  margin-bottom: 15px;
+}
+
+.dv3 {
+  background-image: url('/assets/img/barbers.jpg');
+  background-color: #0000002c;
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 5px 20px;
+  border: 3px solid #FEB017;
+  border-radius: 20px;
+  width: 100% !important;
+  margin-bottom: 15px;
+}
+
+.dv4 {
+  background-image: url('/assets/img/mechanic.jpg');
+  background-color: #0000002c;
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 5px 20px;
+  border: 3px solid #FEB017;
+  border-radius: 20px;
+  width: 100% !important;
+  margin-bottom: 15px;
+}
+
+#hero h5 {
+  padding: auto;
+  margin: 60% 0 auto;
+  font-weight: 600;
+  color: #fff;
+  font-size: calc(17px + 0.2vw);
+}
+
+.confused {
+  display: flex;
+
+}
+
+.confused img {
+  width: 100%;
+  margin: 0;
+}
+
+button.clic {
+  background-color: #FEB017;
+  padding: 8px 17px;
+  border-radius: 50px;
+  border: none;
+}
