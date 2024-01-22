@@ -17,7 +17,7 @@ nav.styt {
 
 .nav-item {
   font-size: calc(14px + 0.2vw);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.2px;
   margin: 0 3px;
 }
@@ -27,7 +27,7 @@ li .nav-link {
 }
 
 .btnarea {
-  padding: 0 0 0 39%;
+  padding: 0 0 0 35%;
   margin: 0;
   display: flex;
 }
@@ -62,10 +62,10 @@ a .bn2:hover {
 #hero {
   padding: 35px 20px;
   margin: 0;
-  /* background-image: url('/assets/img/bg.png');
+  background-image: url('/assets/img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  */
+  background-position: center;
 }
 
 .src {
@@ -87,7 +87,7 @@ input.form-control {
 
 #hero h1 {
   font-size: calc(48px + 0.2vw);
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -1px;
   padding: 0;
   margin: 0 0 2%;
@@ -98,6 +98,7 @@ input.form-control {
   margin: 0;
   padding: 0 calc(20% - 0.2vw) 3.5% 0;
   line-height: 1.4;
+  font-weight: 400;
 }
 
 .mdv {
@@ -160,7 +161,7 @@ div.mmdv {
 #hero h5 {
   padding: auto;
   margin: 60% 0 auto;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   font-size: calc(17px + 0.2vw);
 }
@@ -168,6 +169,10 @@ div.mmdv {
 .confused {
   display: flex;
 
+}
+
+#hero p {
+  margin: 1px 0 6px;
 }
 
 .confused img {
@@ -178,6 +183,117 @@ div.mmdv {
 button.clic {
   background-color: #FEB017;
   padding: 8px 17px;
+  color: #fff;
   border-radius: 50px;
   border: none;
+}
+
+button.clic:hover {
+  background-color: #f1a408;
+  color: #fff;
+  padding: 8px 17px;
+  border-radius: 50px;
+  border: none;
+}
+
+/* Responsiveness */
+
+/* Tabelet View */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+  .src {
+    padding: 0 15% 4%;
+  }
+
+  #hero h1 {
+    font-size: calc(32px + 0.15vw);
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 0 0 2%;
+  }
+
+  #hero h3 {
+    font-size: calc(18px + 0.2vw);
+    margin: 0;
+    padding: 0 calc(20% - 0.2vw) 3.5% 0;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  .mdv {
+    display: flex;
+    margin-left: -13px;
+  }
+
+  #hero h5 {
+    padding: auto;
+    margin: 60% 0 auto;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #fff;
+    font-size: calc(14px + 0.2vw);
+  }
+
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+
+  .btnarea{
+    padding: 5px 0 0;
+  }
+
+  a .bn1 {
+    border: none;
+    color: #333;
+    padding: 8px 20px 8px 5px;
+    letter-spacing: 0.2px;
+  }
+  
+  a .bn1:hover {
+    border: none;
+    color: #FEB017;
+    text-decoration: underline;
+  }
+
+  #hero {
+    padding: 15px 15px 20px;
+    margin: 0;
+  }
+
+  .src {
+    padding: 0 0 5%;
+  }
+
+  #hero h1 {
+    font-size: calc(30px + 0.2vw);
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 0 0 3%;
+  }
+  
+  #hero h3 {
+    font-size: calc(18px + 0.2vw);
+    margin: 0;
+    padding: 0 0 5%;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  .mdv {
+    display: flex;
+    margin-left: -10px;
+  }
+
+  .confused img {
+    width: 100%;
+    margin: 0 10px 10px 0;
+  }
+
+
+
 }
