@@ -62,7 +62,7 @@ a .bn2:hover {
 #hero {
   padding: 35px 20px;
   margin: 0;
-  background-image: url('/assets/img/bg.png');
+  background: url('/assets/img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -111,7 +111,7 @@ div.mmdv {
 }
 
 .dv1 {
-  background-image: url('/assets/img/hair.jpg');
+  background: url('/assets/img/hair.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -123,7 +123,7 @@ div.mmdv {
 }
 
 .dv2 {
-  background-image: url('/assets/img/carwash.jpg');
+  background: url('/assets/img/carwash.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -135,7 +135,7 @@ div.mmdv {
 }
 
 .dv3 {
-  background-image: url('/assets/img/barbers.jpg');
+  background: url('/assets/img/barbers.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -147,7 +147,7 @@ div.mmdv {
 }
 
 .dv4 {
-  background-image: url('/assets/img/mechanic.jpg');
+  background: url('/assets/img/mechanic.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
