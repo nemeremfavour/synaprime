@@ -62,7 +62,7 @@ a .bn2:hover {
 #hero {
   padding: 35px 20px;
   margin: 0;
-  background-image: url('./assets/img/bg.png');
+  background-image: url('/assets/img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -111,7 +111,7 @@ div.mmdv {
 }
 
 .dv1 {
-  background-image: url('./assets/img/hair.jpg');
+  background-image: url('/assets/img/hair.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -123,7 +123,7 @@ div.mmdv {
 }
 
 .dv2 {
-  background-image: url('./assets/img/carwash.jpg');
+  background-image: url('/assets/img/carwash.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -135,7 +135,7 @@ div.mmdv {
 }
 
 .dv3 {
-  background-image: url('./assets/img/barbers.jpg');
+  background-image: url('/assets/img/barbers.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -147,7 +147,7 @@ div.mmdv {
 }
 
 .dv4 {
-  background-image: url('./assets/img/mechanic.jpg');
+  background-image: url('/assets/img/mechanic.jpg');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -242,7 +242,7 @@ button.clic:hover {
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
 
-  .btnarea{
+  .btnarea {
     padding: 5px 0 0;
   }
 
@@ -252,7 +252,7 @@ button.clic:hover {
     padding: 8px 20px 8px 5px;
     letter-spacing: 0.2px;
   }
-  
+
   a .bn1:hover {
     border: none;
     color: #FEB017;
@@ -275,7 +275,7 @@ button.clic:hover {
     padding: 0;
     margin: 0 0 3%;
   }
-  
+
   #hero h3 {
     font-size: calc(18px + 0.2vw);
     margin: 0;
