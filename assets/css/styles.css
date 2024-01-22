@@ -62,7 +62,7 @@ a .bn2:hover {
 #hero {
   padding: 35px 20px;
   margin: 0;
-  background: url('/assets/img/bg.png');
+  background: url("assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -111,7 +111,7 @@ div.mmdv {
 }
 
 .dv1 {
-  background: url('/assets/img/hair.jpg');
+  background: url('https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -123,7 +123,7 @@ div.mmdv {
 }
 
 .dv2 {
-  background: url('/assets/img/carwash.jpg');
+  background: url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -135,7 +135,7 @@ div.mmdv {
 }
 
 .dv3 {
-  background: url('/assets/img/barbers.jpg');
+  background: url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
@@ -147,7 +147,7 @@ div.mmdv {
 }
 
 .dv4 {
-  background: url('/assets/img/mechanic.jpg');
+  background: url('https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-color: #0000002c;
   background-blend-mode: darken;
   background-size: cover;
